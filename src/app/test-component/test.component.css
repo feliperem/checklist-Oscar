@@ -1,6 +1,3 @@
-.box2 {
-    width: 100px;
-    height: 50px;
-    background: black;
-    box-shadow: 3px 7px #CCCCCC;
+.mycard {
+    margin: 25px;
 }

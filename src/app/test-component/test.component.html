@@ -1,3 +1,26 @@
-<p>second-test works!</p>
 
-<div class="box2"></div>
+
+<mat-card class="mycard">
+    <mat-card-header>
+      <mat-card-title>Dados Pessoais</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <p>Nome: {{ profile.firstname }}</p>
+        <p>Sobrenome: {{ profile.lastname }}</p>
+        <p>Idade: {{ profile.age }}</p>
+        <p>Endereço: {{ profile.adress }}</p>
+
+        <form>
+            <mat-form-field class="example-full-width" appearance="fill">
+              <mat-label>Nome</mat-label>
+              <input matInput placeholder="Nome" value="{{ profile.firstname }}">
+            </mat-form-field>
+          
+          </form>
+
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button>LIKE</button>
+      <button mat-button>SHARE</button>
+    </mat-card-actions>
+  </mat-card>

@@ -6,6 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./test.component.css']
 })
 export class TestComponent implements OnInit {
+ 
+  profile = {
+    firstname: "Felipe",
+    lastname: "Rodrigues",
+    age: 23,
+    adress: "Rua Oceano"
+  }
 
   constructor() { }
 
